@@ -1,0 +1,241 @@
+Name,Year,Dates,Surge_FT,Surge_M,Storm_Tide_FT,Storm_Tide_M,Location,State,Lat,Lon,Confidence
+Unnamed,1880,Aug 04-14,8,2.44,,,"Near South Padre Island ""Under the Bluff""",TX,26.172,-97.1733,2
+Indianola,1886,Aug 12-21,15,4.57,,,Indianola,TX,28.5181,-96.4953,3
+Unnamed,1886,Oct 8-13,,,12,3.66,Johnson's Bayou,LA,29.7632,-93.7001,3
+Unnamed,1886,Jun 13-15,,,7,2.13,Sabine Pass,TX,29.6833,-94.0333,3
+Unnamed,1886,Sep 16-24,,,6,1.83,Indianola,TX,28.5181,-96.4953,2
+Unnamed,1888,Oct 8-12,9,2.74,,,Cedar Key,FL,29.1363,-83.0373,3
+Unnamed,1888,Aug 14-24,,,5.87,1.79,Mobile,AL,30.6949,-88.04,1
+Cheniere Caminada,1893,Sep 27- Oct 5,,,16,4.88,Cheniere Caminada (W of Grand Isle),LA,29.2097,-90.0506,3
+Unnamed,1894,Oct 1-12,,,5,1.52,Fort Morgan,AL,30.2328,-87.9534,1
+Unnamed,1895,Aug 22-30,,,4,1.22,Velasco,TX,28.9557,-95.357,1
+Unnamed,1896,Sep 22-30,10,3.05,,,Cedar Key,FL,29.1397,-83.0419,3
+Unnamed,1896,Jul 4-12,5,1.52,,,Pensacola,FL,30.4212,-87.22,2
+Unnamed,1897,Sep 10-13,,,6,1.83,Sabine Pass,TX,29.7194,-93.8639,3
+Unnamed,1899,Jul 28- Aug 2,4,1.22,,,Carrabelle,FL,29.8439,-84.6644,2
+Galveston,1900,Aug 27- Sep 15,,,20,6.1,Galveston,TX,29.2889,-94.7894,3
+Unnamed,1901,Aug 2-18,,,8.2,2.5,Mobile,AL,30.6775,-88.0381,3
+Unnamed,1901,Aug 2-18,,,8,2.44,Port Eads,LA,29.0169,-89.1708,3
+Unnamed,1901,Jul 1-10,,,4.5,1.37,Galveston,TX,29.2889,-94.7894,2
+Unnamed,1903,Sep 9-16,,,10,3.05,Apalachicola,FL,29.7209,-84.9811,3
+Unnamed,1906,Sep 19-30,,,14,4.27,"Galt, Santa Rosa County",FL,30.3575,-86.9997,3
+Grand Isle,1909,Sep 13-22,,,15,4.57,Sea Breeze (Mouth of Bayou Terrebonne/ Terr Bay),LA,29.2542,-90.5914,3
+Velasco,1909,Jul 13-22,,,10,3.05,Galveston and Velasco,TX,29.1081,-95.0881,3
+Unnamed,1909,Jun 25-30,,,7,2.13,S Padre Island,TX,26.1119,-97.1644,3
+Unnamed,1910,Oct 9-23,,,15,4.57,Key West,FL,24.5456,-81.8025,3
+Unnamed,1911,Aug 8-14,,,1,0.3,Pensacola,FL,30.4212,-87.22,3
+Unnamed,1912,Oct 11-18,,,6,1.83,Point Isabel,TX,26.0785,-97.2065,3
+Unnamed,1912,Sep 10-15,,,4.4,1.34,Mobile,AL,30.6775,-88.0381,3
+Unnamed,1913,Jun 21-29,,,1.4,0.43,Galveston,TX,29.2811,-94.8258,
+Galveston,1915,Aug 5-23,,,15.5,4.72,GLS seawall (Galveston?),TX,29.2889,-94.7894,3
+New Orleans,1915,Sep 21- Oct 1,,,17,5.18,"Southeastern LA, S of New Orleans",LA,29.5797,-89.9017,2
+Carrabelle,1915,Aug 31- Sep 6,,,7,2.13,Carrabelle,FL,29.8458,-84.6621,3
+Unnamed,1916,Oct 9-19,4,1.22,,,Mobile,AL,30.6775,-88.0381,2
+Unnamed,1916,Jun 28- Jul 10,,,11.6,3.54,Mobile,AL,30.6775,-88.0381,3
+Unnamed,1916,Aug 12-20,,,9.2,2.8,Corpus Christi,TX,27.7997,-97.3911,3
+Unnamed,1917,Sep 20-30,,,7.8,2.38,Fort Barrancas,FL,30.3451,-87.2975,2
+Unnamed,1918,Aug 1-7,,,3,,Morgan City,LA,29.6886,-91.2081,
+Unnamed,1919,Sep 2-16,,,16,4.88,W shore Nueces Bay (near Corpus Christi),TX,27.8612,-97.4837,2
+Unnamed,1919,Sep 2-16,,,14,4.27,Cow Key,FL,24.5597,-81.7397,2
+Unnamed,1920,Sep 16-23,,,6,1.83,Lake Borgne and Mississippi Sound,MS/ LA,30.2625,-89.3939,3
+Unnamed,1920,Sep 25-30,,,5,1.52,Tampa,FL,27.9403,-82.4601,3
+Tampa Bay,1921,Oct 20-30,,,10.5,3.2,Tampa,FL,27.9403,-82.4601,3
+Unnamed,1921,Jun 16-26,,,7,2.13,West Bay (N side of W Galveston Island),TX,29.2199,-94.949,3
+Unnamed,1923,Oct 12-17,,,8,2.44,Biloxi,MS,30.3922,-88.8836,3
+Unnamed,1923,Oct 16-21,,,4.5,1.37,Apalachicola,FL,29.7208,-84.9811,1
+Unnamed,1924,Sep 27- Oct 1,,,4.5,1.37,Cedar Key,FL,29.1397,-83.0419,1
+"""Great Miami""",1926,Sep 11-22,,,12,3.66,Fort Myers and Punta Rosa,FL,26.6367,-81.8811,2
+Great Miami,1926,Sep 11-22,,,14,4.27,Bagdad,FL,30.5969,-87.0281,4
+Unnamed,1926,Aug 22-27,,,12.5,3.81,"Terrebonne Parish Coast, behind Isle Derniere",LA,29.0947,-90.7947,2
+Unnamed,1929,Sep 22- Oct 4,,,8.8,2.68,Key Largo,FL,25.1848,-80.3885,2
+Unnamed,1929,Jun 27-29,,,7,2.13,Seadrift/ San Antonio Bay,TX,28.4086,-96.7181,2
+Unnamed,1931,Jul 11-17,,,6,1.83,Mississippi Coast,MS,30.3652,-89.0882,2
+Freeport,1932,Aug 12-15,,,5,1.52,Galveston,TX,29.2889,-94.7894,2
+Unnamed,1932,Aug 26- Sep 4,,,6.5,1.98,Heron Bay,AL,30.3547,-88.1303,1
+Unnamed,1933,Aug 28- Sep 05,,,13,3.96,South Padre Island,TX,26.1119,-97.1644,2
+Unnamed,1933,Jun 27- Jul 7,,,4,1.22,Port Isabel,TX,26.0775,-97.2056,1
+Unnamed,1934,Jul 21-26,,,7,2.13,Galveston Island,TX,29.2889,-94.7894,2
+Unnamed,1934,Jun 4-21,,,3,0.91,Between Grand Isle and Vermillion Bay,LA,29.2554,-90.8349,3
+"""Labor Day""",1935,Aug 29- Sep 10,,,5,1.52,Cedar Key,FL,29.1397,-83.0419,2
+Labor Day,1935,Aug 29- Sep 10,,,18,5.49,Lower Matecumbe - Ferry Slip/ Camp 3,FL,24.8516,-80.7375,3
+Unnamed,1936,Jul 26-27,2,0.61,,,Grand Isle,LA,29.2633,-89.9873,3
+Unnamed,1936,Jul 27- Aug 1,,,6,1.83,"Fort Walton Beach, Panama City, Valparaiso",FL,30.3014,-86.0828,3
+Unnamed,1936,Jul 27- Aug 1,,,5.5,1.68,Everglades City,FL,25.8456,-81.3878,3
+Unnamed,1938,Aug 10-15,,,5,1.52,Cameron and Vermillion Parishes,LA,29.5953,-92.6301,3
+Unnamed,1939,Jun 12-17,,,3.6,1.1,Mobile,AL,,,2
+Unnamed,1940,Aug 2-11,,,6.4,1.95,Frenier,LA,30.1075,-90.4231,3
+Unnamed,1941,Sep 16-25,,,11,3.35,Matagorda,TX,28.6881,-95.9658,3
+Unnamed,1941,Oct 3-14,,,8,2.44,St. Marks,FL,30.1519,-84.2089,3
+Unnamed,1941,Oct 3-14,,,4.1,1.25,Everglades City,FL,25.8456,-81.3878,3
+Unnamed,1941,Sep 11-16,,,3.25,0.99,NE TX/ SW LA,TX/ LA,,,1
+Unnamed,1942,Aug 21-31,,,14.7,4.48,Matagorda and Port Lavaca,TX,28.6419,-96.3225,3
+Unnamed,1942,Aug 17-23,,,7,2.13,High Island,TX,29.5506,-94.3858,3
+Unnamed,1943,Sep 15-20,,,6,1.83,"HWY 11, near Chef Menteur",LA,30.1275,-89.8672,2
+Unnamed,1943,Jul 25-29,,,4,1.22,Galveston,TX,29.2889,-94.7894,2
+Unnamed,1944,Oct 12-23,,,12,3.66,Naples,FL,26.1401,-81.8075,3
+Unnamed,1945,Aug 24-29,,,15,4.57,Port Lavaca,TX,28.6122,-96.6203,3
+Unnamed,1945,Jun 20- Jul 1,,,5,1.52,Tampa (Garcia Avenue Bridge- now Eugene Holtsinger),FL,27.9597,-82.4681,1
+Unnamed,1946,Oct 5-14,,,6,1.83,Punta Gorda to Bradenton,FL,27.1292,-82.4728,3
+Unnamed,1947,Sep 4-21,,,15.2,4.63,Bay Saint Louis,MS,30.3025,-89.3308,3
+Unnamed,1947,Sep 4-21,,,4.7,1.43,Everglades City,FL,25.8456,-81.3878,2
+Unnamed,1947,Aug 18-27,,,4,1.22,Galveston (entrance of Galveston Channel),TX,29.3356,-94.7703,1
+Unnamed,1948,Sep 1-7,,,6,1.83,MS Coast,MS,30.3931,-88.9303,3
+Unnamed,1948,Sep 18-25,,,6,1.83,Key West,FL,24.5472,-81.7853,2
+Unnamed,1949,Sep 27- Oct 6,,,11.4,3.47,Houston Ship Channel (Harrisburg),TX,29.6878,-94.9922,2
+Unnamed,1949,Sep 3-5,,,4.8,1.46,Mandeville,LA,30.3528,-90.0689,3
+Baker,1950,Aug 20- Sep 1,,,6.8,2.07,Apalachicola,FL,29.7208,-84.9811,3
+Easy,1950,Sep 1-9,,,8,2.44,Clearwater to Sarasota,FL,27.5094,-82.7211,2
+King,1950,Oct 13-19,,,9,2.74,"Bahia Honda (bridge), E of Big Pine Key",FL,24.6547,-81.2817,2
+Florence,1953,Sep 23-28,6.5,1.98,,,Panacea,FL,30.0225,-84.3858,3
+Gladys,1955,Sep 4-6,,,4.5,1.37,Corpus Christi Bay,TX,27.7997,-97.3911,2
+TS #5,1955,Aug 23-30,,,3.6,1.1,Shell Beach,LA,,,3
+TS Brenda,1955,Jul 31- Aug 03,,,6,1.83,MS Coast,MS,30.3931,-88.9303,3
+Flossy,1956,Sep 21-30,,,13,3.96,Ostrica Lock,LA,29.3683,-89.5297,3
+Flossy,1956,Sep 21-30,,,7.4,2.26,Laguna Beach,FL,30.2386,-85.9244,3
+TS #1,1956,Jun 12-15,,,4.7,1.43,Biloxi,MS,30.3922,-88.8836,3
+Audrey,1957,Jun 25-29,,,13.9,4.24,Oak Grove Ridge,LA,29.7697,-93.4525,2
+Bertha,1957,Aug 8-11,,,4.7,1.43,West end of Vermillion Bay,LA,29.7451,-92.1075,3
+Debbie,1957,Sep 7-9,,,4,1.22,Apalachee Bay,FL,30.1033,-84.0442,3
+Esther,1957,Sep 16-19,,,5,1.52,MS Coast,MS,30.3931,-88.9303,1
+TS #1,1957,Jun 8-15,,,3,0.91,Sarasota to Cedar Key,FL,,,3
+Alma,1958,Jun 14-16,,,2.9,0.88,S Padre Island,TX,,,4
+Ella,1958,Aug 30- Sep 6,,,4,1.22,Port Isabel Coast Guard Station/ S. Padre Is.,TX,,,2
+Ella,1958,Aug 30- Sep 6,,,2,0.61,Key West,FL,,,3
+Arlene,1959,May 28- Jun 2,,,3,0.91,Pt. Au Fer,LA,,,3
+Beulah,1959,Jun 15-18,,,3,0.91,Lower Texas Coast,TX,,,2
+Debra,1959,Jul 23-28,,,7.9,2.41,Morgan Point,TX,29.6731,-94.9878,3
+Irene,1959,Oct 6-9,4,1.22,,,Cedar Key,FL,29.1397,-83.0419,3
+Judith,1959,Oct 17-21,3,0.91,,,Naples,FL,,,3
+Donna,1960,Aug 29- Sep 14,,,13.5,4.11,Upper Matecumbe Key,FL,24.9133,-80.6353,2
+Ethel,1960,Sep 14-17,,,7,2.13,Quarantine Bay,LA,29.3825,-89.5189,3
+TS #1,1960,Jun 22-29,,,3.5,1.07,Corpus Christi Bay,TX,,,4
+Carla,1961,Sep 3-16,,,22,6.71,Port Lavaca,TX,28.6122,-96.6203,2
+Cindy,1963,Sep 16-20,,,6,1.83,Near Mouth of Calcasieu River,LA,29.7622,-93.3442,2
+Abby,1964,Aug 5-8,,,4,1.22,Matagorda to Freeport,TX,28.8044,-95.5483,2
+Cleo,1964,Aug 20- Sep 5,,,1.3,0.4,Tampa,FL,27.941,-82.4573,2
+Dora,1964,Aug 28- Sep 16,6,1.83,,,Yankeetown,FL,29.0186,-82.7264,3
+Hilda,1964,Sep 28- Oct 5,,,9.8,2.99,Houma Navigation Canal,LA,29.2357,-90.6712,2
+Isbell,1964,Oct 8-17,,,4.5,1.37,Key West,FL,24.5453,-81.8108,2
+Betsy,1965,Aug 27- Sep 13,,,15.7,4.79,Bohemia (East Landside),LA,29.545,-89.7565,3
+Betsy,1965,Aug 27- Sep 13,,,9,2.74,North Key Largo,FL,25.2646,-80.3018,3
+Debbie,1965,Sep 24-30,,,6,1.83,Industrial Canal in New Orleans,LA,30.0157,-90.0292,2
+TS #1,1965,Jun 11-18,6,1.83,,,Apalachicola (in vicinity),FL,29.7208,-84.9811,2
+Alma,1966,Jun 4-14,8.5,2.59,,,New Port Richey to Cedar Key,FL,28.9078,-82.6911,2
+Alma,1966,Jun 4-14,,,5,1.52,Fort Myers Beach,FL,26.4501,-81.9497,3
+Inez,1966,Sep 21- Oct 11,5,1.52,,,Big Pine Key,FL,24.6719,-81.3397,2
+Inez,1966,Sep 21- Oct 11,,,3.1,,Corpus Christi,TX,27.7858,-97.3942,2
+Beulah,1967,Sep 5-22,18,5.49,,,Near South Padre Is/ Deer Is Boundary,TX,26.4,-97.2217,2
+Abby,1968,Jun 1-13,,,5.6,1.71,Everglades City,FL,25.8456,-81.3878,2
+Candy,1968,Jun 22-26,4.5,1.37,,,Palacios (Matagorda County),TX,28.6983,-96.2151,3
+Gladys,1968,Oct 13-21,,,6.5,1.98,Between Clearwater and Bayport,FL,28.3801,-82.7056,2
+Camille,1969,Aug 14-22,,,24.6,7.5,Pass Christian,MS,30.3158,-89.2475,2
+Becky,1970,Jul 19-23,3,0.91,,,Apalachicola to St. Marks,FL,29.914,-84.524,2
+Celia,1970,Jul 31- Aug 5,,,11.4,3.47,Ingleside on the Bay,TX,27.8604,-97.2417,3
+Ella,1970,Sep 8-13,1.5,0.46,,,South Padre Island,TX,26.1119,-97.1683,2
+Felice,1970,Sep 12-17,,,2,,Galveston Channel,TX,29.3091,-94.7937,2
+Edith,1971,Sep 5-18,,,9.7,2.96,Cypremort Point,LA,29.7161,-91.8772,2
+Edith,1971,Sep 5-18,,,2.5,0.76,South Padre Island,TX,26.1119,-97.1683,2
+Fern,1971,Sep 3-13,,,6,1.83,Freeport,TX,28.9439,-95.3094,3
+Agnes,1972,Jun 14-23,7,2.13,,,Cedar Key,FL,29.1363,-83.0373,3
+Delia,1973,Sep 1-7,,,6.5,1.98,Baytown,TX,29.7335,-94.9781,3
+Carmen,1974,Aug 29- Sep 10,10.5,3.2,,,Cocodrie,LA,29.2453,-90.6633,2
+Caroline,1975,Aug 24- Sep 1,,,3.75,,Ranger Station at Padre Island near Corpus Christi,TX,27.4772,-97.2738,2
+Eloise,1975,Sep 13-24,,,18.2,5.55,Dune Allen Beach,FL,30.3494,-86.2431,2
+Anita,1977,Aug 29- Sep 3,,,5.5,1.68,Port Isabel Coast Guard Station/ S. Padre Is.,TX,26.0728,-97.1669,2
+Babe,1977,Sep 3-9,,,8.66,2.64,Bayou Petit Caillou,LA,29.1627,-90.6537,2
+Debra,1978,Aug 26-29,5.7,1.74,,,West of Atchafalaya Bay through Vermillion Bay,LA,29.7452,-91.6683,2
+Bob,1979,Jul 9-16,,,6.3,1.92,Gulfport and Harrison County CD,MS,30.3614,-89.0928,3
+Claudette,1979,Jul 15-29,,,4.5,1.37,Sabine Coast Guard Station,TX,29.7286,-93.8708,2
+David,1979,Aug 25- Sep 8,,,2,0.61,Islamorada and Key West USCG,FL,24.9235,-80.6261,3
+Elena,1979,Aug 30- Sep 2,,,3.25,,"Galveston, Texas City, Baytown",TX,29.381,-94.8892,2
+Frederic,1979,Aug 29- Sep 15,,,15.3,4.66,Near Orange Beach (Gulf Side),AL,30.2654,-87.598,3
+Allen,1980,Jul 31- Aug 11,,,12,3.66,Port Mansfield on Laguna Madre,TX,26.5553,-97.4233,3
+Danielle,1980,Sep 4-7,3,0.91,,,Upper Texas & Southwest Louisiana coast,TX/ LA,29.6804,-93.8394,2
+Jeanne,1980,Nov 7-16,4,1.22,,,Texas Coast (South),TX,26.4653,-97.2442,2
+Chris,1982,Sep 9-12,,,5.5,1.68,Cameron Parish,LA,29.7608,-93.5625,2
+Alicia,1983,Aug 15-21,,,12.63,3.85,San Luis Pass (West Bay Side),TX,29.0898,-95.1213,3
+Barry,1983,Aug 23-29,2,0.61,,,South Texas Coast,TX,26.0768,-97.157,2
+Danny,1985,Aug 12-20,,,8,2.44,South Central Louisiana Coast,LA,29.5875,-92.1469,2
+Elena,1985,Aug 28- Sep 4,10,3.05,,,Near Apalachicola,FL,29.7191,-85.0717,2
+Elena,1985,Aug 28- Sep 4,1.97,0.6,,,Key West,FL,,,2
+Juan,1985,Oct 26- Nov 1,8.2,2.5,,,Bayou Bienvenue,LA,30.0038,-89.8576,3
+Kate,1985,Nov 15-23,11,3.35,,,Cape San Blas,FL,29.6689,-85.3275,3
+Bonnie,1986,Jun 23-28,5.2,1.58,,,Sabine Pass,TX,29.6833,-94.0333,3
+Floyd,1987,Oct 9-14,4,1.22,,,Lower and Middle Keys,FL,24.6481,-81.4164,2
+Beryl,1988,Aug 8-10,5.5,1.68,,,Bayou Bienvenue,LA,30.0038,-89.8576,3
+Florence,1988,Sep 7-11,6,1.83,7.5,,Bayou Bienvenue,LA,30.0038,-89.8576,3
+Gilbert,1988,Sep 8-20,6,1.83,,,S Padre Island,TX,26.0733,-97.1547,3
+Keith,1988,Nov 17-26,6,1.83,,,Bradenton,FL,27.4994,-82.5737,3
+Allison,1989,Jun 24- Jul 1,2.95,0.9,,,Port Arthur/ Beaumont (WSO),TX,29.865,-93.9353,3
+Chantal,1989,Jul 30- Aug 3,,,7,2.13,High Island,TX,29.5506,-94.3858,3
+Jerry,1989,Oct 12-16,,,7,2.13,Baytown,TX,29.7219,-95.0075,2
+Marco,1990,Oct 9-13,2.5,,,,Sanibel Island,FL,26.4375,-82.0386,3
+Andrew,1992,Aug 16-28,,,13.12,4,North Highland Beach,FL,25.4977,-81.2006,2
+Andrew,1992,Aug 16-28,,,10.17,3.1,Bay Couteau,LA,29.2305,-90.6693,2
+Arlene,1993,Jun 18-21,,,4.5,1.37,Palacios (PSX),TX,28.6984,-96.2162,2
+Alberto,1994,Jun 30- Jul 7,,,5,1.52,Okaloosa Island to Destin,FL,30.3897,-86.5497,2
+Beryl,1994,Aug 14-19,2.9,0.88,,,Apalachicola,FL,29.7267,-84.9817,3
+Gordon,1994,Nov 8-21,,,4,1.22,Upper FL Keys,FL,25.0108,-80.5139,2
+Allison,1995,Jun 3-11,8,2.44,,,Wakulla through Dixie Counties,FL,29.9801,-83.8086,2
+Erin,1995,Jul 31- Aug 6,,,6.56,2,Navarre Beach,FL,30.3793,-86.8625,2
+Jerry,1995,Aug 22-28,,,1.5,0.46,Florida West Coast,FL,28.7547,-82.6444,2
+Opal,1995,Sep 27- Oct 6,,,14.5,4.42,Hollywood Beach,FL,30.2594,-85.9697,2
+Josephine,1996,Oct 4-8,,,9.3,2.83,Suwannee,FL,29.3226,-83.1437,3
+Lili,1996,Oct 14-29,6,1.83,,,Florida Keys,FL,24.5617,-81.6811,2
+Danny,1997,Jul 16-27,,,5.4,1.65,Grand Isle,LA,29.2366,-89.9873,2
+Charley,1998,Aug 21-24,,,4.92,1.5,Galveston Pleasure Pier,TX,29.285,-94.7883,3
+Earl,1998,Aug 31- Sep 8,8,2.44,,,"Franklin, Wakulla, Jefferson and Taylor Counties",FL,29.8053,-84.7333,2
+Frances,1998,Sep 8-13,,,8,2.44,Matagorda Locks and Sargeant Swing Bridge,TX,28.6803,-95.9801,2
+Georges,1998,Sep 15- Oct 1,,,12.14,3.7,Mississippi Coast,MS,30.3911,-88.9737,2
+Georges,1998,Sep 15- Oct 1,,,7.55,2.3,Florida Keys,FL,24.5594,-81.6847,2
+Mitch,1998,Oct 22- Nov 9,,,4,1.22,Lower Florida Keys,FL,24.5572,-81.7092,2
+Bret,1999,Aug 18-25,,,7,2.13,Port Mansfield Pass,TX,26.5628,-97.2764,2
+Harvey,1999,Sep 19-22,,,2.5,0.76,Charlotte County,FL,26.8778,-82.0632,2
+Irene,1999,Oct 12-19,1.97,0.6,,,Vaca Key,FL,24.7117,-81.105,2
+Gordon,2000,Sep 14-21,5,1.52,,,Bellair Beach,FL,27.9232,-82.8444,2
+Helene,2000,Sep 15-25,1,0.3,,,"Panama City Beach, Pensacola Beach, Destin Airport",FL,30.3968,-86.4709,3
+Allison,2001,Jun 5-19,3,0.91,,,Galveston Island (Western Region),TX,29.1813,-94.9717,2
+Barry,2001,Aug 2-8,,,3,0.91,"Bay and Walton Counties, FL/ SE LA",FL/ LA,30.3339,-86.185,2
+Gabrielle,2001,Sep 11-21,6.56,2,,,Charlotte and Lee Counties,FL,26.7696,-82.0615,2
+Michelle,2001,Oct 29- Nov 6,3,0.91,,,Florida Keys,FL,24.661,-81.3566,2
+Bertha,2002,Aug 4-9,2.12,0.65,,,Waveland,MS,30.325,-89.325,3
+Fay,2002,Sep 5-11,3,0.91,,,TX coast,TX,28.8303,-95.4981,2
+Hanna,2002,Sep 12-15,,,5.1,1.55,Gulfport Harbor,MS,30.3614,-89.0928,3
+Isidore,2002,Sep 14-27,8.3,2.53,,,Rigolets,LA,30.1733,-89.7274,3
+Lili,2002,Sep 21- Oct 4,,,12.3,3.75,Crewboat Channel (Calumet),LA,29.5742,-91.4206,2
+Bill,2003,Jun 28- Jul 3,5.54,1.69,,,Bayou Bienvenue,LA,30.0038,-89.8576,2
+Claudette,2003,Jul 7-17,,,9.15,2.79,Freeport USGS,TX,28.9211,-95.3869,2
+Grace,2003,Aug 30- Sep 2,2,0.61,,,Galveston Island,TX,29.2906,-94.7866,2
+Bonnie,2004,Aug 3-14,1.9,0.58,5.21,,Cedar Key (NOS),FL,29.135,-83.0317,3
+Charley,2004,Aug 9-15,,,9.4,2.87,Fort Myers Beach,FL,26.4506,-81.9496,3
+Frances,2004,Aug 25- Sep 10,,,6,1.83,Pinellas County,FL,27.8044,-82.807,2
+Ivan,2004,Sep 2-24,15,4.57,,,"Destin, FL to Mobile, AL",FL/ AL,30.3422,-87.3106,2
+Ivan,2004,Sep 2-24,1.7,0.52,,,Calcasieu Pass- East Jetty,LA,29.7683,-93.3433,2
+Jeanne,2004,Sep 13-29,3.5,1.07,,,Cedar Key,FL,29.1363,-83.0373,2
+Matthew,2004,Oct 8-11,5.85,1.78,,,Frenier (NWS),LA,30.1076,-90.4268,3
+Arlene,2005,Jun 8-14,5,1.52,,,Walton County,FL,30.3339,-86.185,3
+Cindy,2005,Jul 3-11,,,7,2.16,Fort Morgan,AL,30.2328,-87.9534,2
+Dennis,2005,Jul 4-18,3.38,1.03,4.84,1.48,McKay Bay (Entrance),FL,27.9133,-82.425,3
+Dennis,2005,Jul 4-18,,,10.5,3.2,Navarre Beach to Panama City,FL,30.369,-86.3266,3
+Emily,2005,Jul 11-21,,,5,1.52,Boca Chica Beach,TX,26.0168,-97.152,3
+Katrina,2005,Aug 23-31,4,1.22,,,Extreme SW Florida,FL,25.1294,-81.0369,2
+Katrina,2005,Aug 23-31,,,28,8.53,Hancock County EOC,MS,30.2721,-89.376,2
+Rita,2005,Sep 18-26,,,17.8,5.43,Cameron Parish,LA,29.7867,-93.1837,3
+Rita,2005,Sep 18-26,,,5,1.52,Key West (KEYW),FL,24.5546,-81.7638,3
+Wilma,2005,Oct 15-26,,,15.5,4.72,Lostman's Ranger Station to Big Sable Creek,FL,25.4432,-81.1564,2
+Alberto,2006,Jun 10-19,6,1.83,,,Homosassa,FL,28.7829,-82.6206,2
+Ernesto,2006,Aug 24- Sep 4,1,0.3,,,Vaca Key and Naples Pier,FL,24.7117,-81.105,2
+Erin,2007,Aug 15-19,3.1,0.94,,,"Jamaica Beach, Western Galveston Island",TX,29.1815,-94.9716,3
+Humberto,2007,Sep 12-14,,,4.87,1.48,Texas Point TCOON Tide Gage,TX,29.6781,-93.8369,2
+Dolly,2008,Jul 20-27,4,1.22,,,"S Padre Is., Port Mansfield, Brownsville",TX,26.3533,-97.2094,2
+Fay,2008,Aug 15-28,5,1.52,,,Everglades City,FL,25.8456,-81.3878,2
+Gustav,2008,Aug 25- Sep 5,12.5,3.81,13.63,4.15,Northeast Bay Gardene,LA,29.5858,-89.606,3
+Gustav,2008,Aug 25- Sep 5,1,0.31,1.5,0.46,Vaca Key,FL,24.7117,-81.105,2
+Ike,2008,Sep 1-15,1.86,,3.25,,Fort Myers,FL,26.647,-81.872,2
+Ike,2008,Sep 1-15,,,17.5,5.33,Chambers County,TX,29.704,-94.4837,3
+Claudette,2009,Aug 16-18,3,0.91,3.5,,Indian Pass,FL,29.6799,-85.2271,3
+Ida,2009,Nov 4-10,6.53,1.99,7.33,,Bay Gardene,LA,29.5983,-89.6183,3
+Alex,2010,Jun 25- Jul 2,4.94,1.51,5.31,,Port Lavaca,TX,28.6178,-96.6205,3
+Hermine,2010,Sep 6-9,3.4,1.04,4.2,,Port Lavaca,TX,28.6178,-96.6205,3
+Don,2011,Jul 27-30,1.89,0.58,2.54,0.77,Corpus Christi Bob Hall Pier,TX,27.58,-97.2167,3
+Lee,2011,Sep 2-5,,,6.25,1.91,Seabrook Bridge,LA,30.031,-90.037,2
