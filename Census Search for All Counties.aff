@@ -1,0 +1,121 @@
+<query schema-version="1.0" lang="en" type="search" sig="pUUv9pyApwonUlHFL3qtIBnJXkY">
+  <search-config>
+    <text-search>MEDIAN NONFAMILY HOUSEHOLD INCOME IN THE PAST 12 MONTHS (IN 2015 INFLATION-ADJUSTED DOLLARS) BY SEX OF HOUSEHOLDER</text-search>
+    <category-search type="geo" summary-level-code="050" name="Acadia Parish, Louisiana"/>
+    <category-search type="geo" summary-level-code="050" name="Amite County, Mississippi"/>
+    <category-search type="geo" summary-level-code="050" name="Aransas County, Texas"/>
+    <category-search type="geo" summary-level-code="050" name="Ascension Parish, Louisiana"/>
+    <category-search type="geo" summary-level-code="050" name="Assumption Parish, Louisiana"/>
+    <category-search type="geo" summary-level-code="050" name="Austin County, Texas"/>
+    <category-search type="geo" summary-level-code="050" name="Avoyelles Parish, Louisiana"/>
+    <category-search type="geo" summary-level-code="050" name="Baldwin County, Alabama"/>
+    <category-search type="geo" summary-level-code="050" name="Bay County, Florida"/>
+    <category-search type="geo" summary-level-code="050" name="Beauregard Parish, Louisiana"/>
+    <category-search type="geo" summary-level-code="050" name="Bee County, Texas"/>
+    <category-search type="geo" summary-level-code="050" name="Brazoria County, Texas"/>
+    <category-search type="geo" summary-level-code="050" name="Brooks County, Texas"/>
+    <category-search type="geo" summary-level-code="050" name="Calcasieu Parish, Louisiana"/>
+    <category-search type="geo" summary-level-code="050" name="Calhoun County, Texas"/>
+    <category-search type="geo" summary-level-code="050" name="Cameron County, Texas"/>
+    <category-search type="geo" summary-level-code="050" name="Cameron Parish, Louisiana"/>
+    <category-search type="geo" summary-level-code="050" name="Chambers County, Texas"/>
+    <category-search type="geo" summary-level-code="050" name="Charlotte County, Florida"/>
+    <category-search type="geo" summary-level-code="050" name="Citrus County, Florida"/>
+    <category-search type="geo" summary-level-code="050" name="Clarke County, Alabama"/>
+    <category-search type="geo" summary-level-code="050" name="Collier County, Florida"/>
+    <category-search type="geo" summary-level-code="050" name="Colorado County, Texas"/>
+    <category-search type="geo" summary-level-code="050" name="Covington County, Alabama"/>
+    <category-search type="geo" summary-level-code="050" name="DeWitt County, Texas"/>
+    <category-search type="geo" summary-level-code="050" name="Duval County, Texas"/>
+    <category-search type="geo" summary-level-code="050" name="East Baton Rouge Parish, Louisiana"/>
+    <category-search type="geo" summary-level-code="050" name="East Feliciana Parish, Louisiana"/>
+    <category-search type="geo" summary-level-code="050" name="Escambia County, Alabama"/>
+    <category-search type="geo" summary-level-code="050" name="Escambia County, Florida"/>
+    <category-search type="geo" summary-level-code="050" name="Evangeline Parish, Louisiana"/>
+    <category-search type="geo" summary-level-code="050" name="Fayette County, Texas"/>
+    <category-search type="geo" summary-level-code="050" name="Fort Bend County, Texas"/>
+    <category-search type="geo" summary-level-code="050" name="Franklin County, Florida"/>
+    <category-search type="geo" summary-level-code="050" name="Galveston County, Texas"/>
+    <category-search type="geo" summary-level-code="050" name="Geneva County, Alabama"/>
+    <category-search type="geo" summary-level-code="050" name="George County, Mississippi"/>
+    <category-search type="geo" summary-level-code="050" name="Goliad County, Texas"/>
+    <category-search type="geo" summary-level-code="050" name="Gulf County, Florida"/>
+    <category-search type="geo" summary-level-code="050" name="Hancock County, Mississippi"/>
+    <category-search type="geo" summary-level-code="050" name="Harris County, Texas"/>
+    <category-search type="geo" summary-level-code="050" name="Harrison County, Mississippi"/>
+    <category-search type="geo" summary-level-code="050" name="Hernando County, Florida"/>
+    <category-search type="geo" summary-level-code="050" name="Hidalgo County, Texas"/>
+    <category-search type="geo" summary-level-code="050" name="Hillsborough County, Florida"/>
+    <category-search type="geo" summary-level-code="050" name="Iberia Parish, Louisiana"/>
+    <category-search type="geo" summary-level-code="050" name="Iberville Parish, Louisiana"/>
+    <category-search type="geo" summary-level-code="050" name="Jackson County, Mississippi"/>
+    <category-search type="geo" summary-level-code="050" name="Jackson County, Texas"/>
+    <category-search type="geo" summary-level-code="050" name="Jasper County, Texas"/>
+    <category-search type="geo" summary-level-code="050" name="Jefferson County, Texas"/>
+    <category-search type="geo" summary-level-code="050" name="Jefferson Davis Parish, Louisiana"/>
+    <category-search type="geo" summary-level-code="050" name="Jefferson Parish, Louisiana"/>
+    <category-search type="geo" summary-level-code="050" name="Jim Hogg County, Texas"/>
+    <category-search type="geo" summary-level-code="050" name="Jim Wells County, Texas"/>
+    <category-search type="geo" summary-level-code="050" name="Kenedy County, Texas"/>
+    <category-search type="geo" summary-level-code="050" name="Kleberg County, Texas"/>
+    <category-search type="geo" summary-level-code="050" name="Lafayette Parish, Louisiana"/>
+    <category-search type="geo" summary-level-code="050" name="Lafourche Parish, Louisiana"/>
+    <category-search type="geo" summary-level-code="050" name="Lamar County, Mississippi"/>
+    <category-search type="geo" summary-level-code="050" name="Lavaca County, Texas"/>
+    <category-search type="geo" summary-level-code="050" name="Lee County, Florida"/>
+    <category-search type="geo" summary-level-code="050" name="Liberty County, Texas"/>
+    <category-search type="geo" summary-level-code="050" name="Live Oak County, Texas"/>
+    <category-search type="geo" summary-level-code="050" name="Livingston Parish, Louisiana"/>
+    <category-search type="geo" summary-level-code="050" name="Manatee County, Florida"/>
+    <category-search type="geo" summary-level-code="050" name="Marion County, Mississippi"/>
+    <category-search type="geo" summary-level-code="050" name="Matagorda County, Texas"/>
+    <category-search type="geo" summary-level-code="050" name="Mobile County, Alabama"/>
+    <category-search type="geo" summary-level-code="050" name="Monroe County, Alabama"/>
+    <category-search type="geo" summary-level-code="050" name="Newton County, Texas"/>
+    <category-search type="geo" summary-level-code="050" name="Nueces County, Texas"/>
+    <category-search type="geo" summary-level-code="050" name="Okaloosa County, Florida"/>
+    <category-search type="geo" summary-level-code="050" name="Orange County, Texas"/>
+    <category-search type="geo" summary-level-code="050" name="Orleans Parish, Louisiana"/>
+    <category-search type="geo" summary-level-code="050" name="Pasco County, Florida"/>
+    <category-search type="geo" summary-level-code="050" name="Pearl River County, Mississippi"/>
+    <category-search type="geo" summary-level-code="050" name="Pike County, Mississippi"/>
+    <category-search type="geo" summary-level-code="050" name="Pinellas County, Florida"/>
+    <category-search type="geo" summary-level-code="050" name="Plaquemines Parish, Louisiana"/>
+    <category-search type="geo" summary-level-code="050" name="Pointe Coupee Parish, Louisiana"/>
+    <category-search type="geo" summary-level-code="050" name="Rapides Parish, Louisiana"/>
+    <category-search type="geo" summary-level-code="050" name="Refugio County, Texas"/>
+    <category-search type="geo" summary-level-code="050" name="Sabine Parish, Louisiana"/>
+    <category-search type="geo" summary-level-code="050" name="San Patricio County, Texas"/>
+    <category-search type="geo" summary-level-code="050" name="Santa Rosa County, Florida"/>
+    <category-search type="geo" summary-level-code="050" name="Sarasota County, Florida"/>
+    <category-search type="geo" summary-level-code="050" name="St. Bernard Parish, Louisiana"/>
+    <category-search type="geo" summary-level-code="050" name="St. Charles Parish, Louisiana"/>
+    <category-search type="geo" summary-level-code="050" name="St. Helena Parish, Louisiana"/>
+    <category-search type="geo" summary-level-code="050" name="St. James Parish, Louisiana"/>
+    <category-search type="geo" summary-level-code="050" name="St. John the Baptist Parish, Louisiana"/>
+    <category-search type="geo" summary-level-code="050" name="St. Landry Parish, Louisiana"/>
+    <category-search type="geo" summary-level-code="050" name="St. Martin Parish, Louisiana"/>
+    <category-search type="geo" summary-level-code="050" name="St. Mary Parish, Louisiana"/>
+    <category-search type="geo" summary-level-code="050" name="St. Tammany Parish, Louisiana"/>
+    <category-search type="geo" summary-level-code="050" name="Starr County, Texas"/>
+    <category-search type="geo" summary-level-code="050" name="Stone County, Mississippi"/>
+    <category-search type="geo" summary-level-code="050" name="Tangipahoa Parish, Louisiana"/>
+    <category-search type="geo" summary-level-code="050" name="Terrebonne Parish, Louisiana"/>
+    <category-search type="geo" summary-level-code="050" name="Tyler County, Texas"/>
+    <category-search type="geo" summary-level-code="050" name="Vermilion Parish, Louisiana"/>
+    <category-search type="geo" summary-level-code="050" name="Vernon Parish, Louisiana"/>
+    <category-search type="geo" summary-level-code="050" name="Victoria County, Texas"/>
+    <category-search type="geo" summary-level-code="050" name="Waller County, Texas"/>
+    <category-search type="geo" summary-level-code="050" name="Walthall County, Mississippi"/>
+    <category-search type="geo" summary-level-code="050" name="Walton County, Florida"/>
+    <category-search type="geo" summary-level-code="050" name="Washington County, Alabama"/>
+    <category-search type="geo" summary-level-code="050" name="Washington County, Texas"/>
+    <category-search type="geo" summary-level-code="050" name="Washington Parish, Louisiana"/>
+    <category-search type="geo" summary-level-code="050" name="Webb County, Texas"/>
+    <category-search type="geo" summary-level-code="050" name="West Baton Rouge Parish, Louisiana"/>
+    <category-search type="geo" summary-level-code="050" name="West Feliciana Parish, Louisiana"/>
+    <category-search type="geo" summary-level-code="050" name="Wharton County, Texas"/>
+    <category-search type="geo" summary-level-code="050" name="Wilkinson County, Mississippi"/>
+    <category-search type="geo" summary-level-code="050" name="Willacy County, Texas"/>
+  </search-config>
+</query>
