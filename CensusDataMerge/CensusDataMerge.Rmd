@@ -1,0 +1,41 @@
+---
+title: "Census Data Merge"
+author: "Courtney Page <courtney.m.page@gmail.com>"
+date: "July 25, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+```{r}
+#Create master dataframe
+data.dir <- "C:/Users/Courtney Page/Desktop/Data/Median Income by Gender"
+file_list <- dir(data.dir, pattern = "*_5YR_B19215_with_ann.csv")
+
+#For each file frm list of files
+
+for(filename in file_list) {
+  print(filename)
+  #Load file into data frame
+  filepath <- paste(data.dir, filename, sep = "/")
+  currentdf <- read.csv(filepath)
+  str(currentdf)
+  
+  #Add year var
+  
+  #Select vars used
+  
+  #Add data to master table
+  
+  
+  
+  
+  
+}
+
+
+
+
+```
+
