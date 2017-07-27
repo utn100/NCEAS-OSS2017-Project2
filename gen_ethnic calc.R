@@ -34,6 +34,7 @@ employ <- census_var[,"Employment_Employed"] -
   census_var[,"Employment_Unemployed"]
 employ <- (employ/100)
 
+
 #Income Inequality
 
 income_equ <- mutate(census_var, gini = Gini_index)
@@ -126,7 +127,40 @@ bonds <- rowSums(result_tbl [,c("ethnic_a",
 
 bond_SoCI <- mutate(result_tbl, bond_SoCI = bonds/9)                                 
 
-write.csv(bond_SoCI, file = "bond_SoCI.csv")
+
+#normalization of yearly data
+
+SoCI_stats <- bond_SoCI %>% group_by(year) %>% 
+              summarize_at(vars(elder_only:comms_only), c("mean", "max", "min"))
+
+
+SoCI_stat_combo <- left_join(bond_SoCI, SoCI_stats, by = "year")
+
+SoCI_norm <- SoCI_stat_combo %>% mutate(employ_soc = (employ - employ_min)/(employ_max - employ_min),
+                                 income_soc = (income_equ_only -income_equ_only_min)/(income_equ_only_max - income_equ_only_min),
+                                 elder_soc = (elder_only - elder_only_min)/(elder_only_max - elder_only_min),
+                                education_soc = (education - education_min)/ (education_max - education_min),
+                                 race_soc = (race_inc - race_inc_min)/ (race_inc_max - race_inc_min),
+                                  gen_soc = (gen_inc - gen_inc_min)/ (gen_inc_max - gen_inc_min),
+                                  eng_soc = (eng_only - eng_only_min)/ (eng_only_max - eng_only_min),
+                                  comms_soc = (comms_only - comms_only_min)/ (comms_only_max - comms_only_min)
+                                    )
+                                   
+                                 
+SoCI_bond_2 <- mutate(SoCI_norm, SoCI_bond = ((employ_soc + income_soc + 
+                                                     education_soc + 
+                                                     race_soc + 
+                                                     gen_soc + 
+                                                     eng_soc + 
+                                                     comms_soc)/9))
+ 
+SoCI_bond_final <- select(SoCI_bond_2, c(fips_n, year, SoCI_bond))
+
+View(SoCI_bond_final)
+
+
+# write final csv
+write.csv(SoCI_bond_final, file = "SoCI_bond_final.csv")
  
 
 
