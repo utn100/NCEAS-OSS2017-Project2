@@ -3,7 +3,7 @@ library(dplyr)
 
 
 #load csv
-census_var <- read.csv("census_data.csv")
+census_var <- read.csv("census_data_master.csv")
 
 
 # race similarity calc : gen ethnic=1-((white/totalpop)^2+(black/totalpop)^2 + 
@@ -66,13 +66,13 @@ Wh_inc <- (census_var[,"White_Income"]/total_inc)^2
 Blk_inc <- (census_var[,"Black_Income"]/total_inc)^2
 Asian_inc <- (census_var[,"Asian_Income"]/total_inc)^2
 
-race_tbl <- census_var[,c(1,4)]
+race_tbl <- census_var[,c(1,3)]
 race_tbl <- race_tbl %>% mutate(Two_inc, Am_ind_inc, Hisp_inc, Wh_inc, Blk_inc, Asian_inc)
 race_inc <- rowSums(race_tbl [,c("Two_inc", "Am_ind_inc", "Hisp_inc", "Wh_inc", "Blk_inc", "Asian_inc")])
 
 # gender income homogeneity
-
-gen_inc_total <- rowSums(census_var [, c("male_household", "female_household")])
+census_var$male_household <- as.numeric(census_var$male_household)
+gen_inc_total <- rowSums(census_var [, c("male_household", "female_household")], na.rm = TRUE)
 gen_inc_tbl <- census_var[,c(1,4)]
 male_inc <- (census_var[,"male_household"]/gen_inc_total)^2
 female_inc <- (census_var[,"female_household"]/gen_inc_total)^2
@@ -97,11 +97,11 @@ elder <- mutate(census_var, elders = percent_65_older/100)
 elder_only <- elder[,c(31)]
 
 #Bonding Calculation inputs 
-result_tbl <- census_var[,c(1,4)]
+result_tbl <- census_var[,c(1,3)]
 
 
 
-result_tbl <- result_tbl %>% mutate(ethnic_a =(1 - (ethnic/100^2)), 
+result_tbl <- result_tbl %>% mutate(ethnic_a =(1 - (ethnic^2)), 
                                     elder_only,
                                     income_equ_only,
                                     employ, 
@@ -125,13 +125,13 @@ bonds <- rowSums(result_tbl [,c("ethnic_a",
                                     "eng_only",
                                     "comms_only")])
 
-bond_SoCI <- mutate(result_tbl, bond_SoCI = bonds/9)                                 
+bond_SoCI <- mutate(result_tbl, bond_SoCI = bonds, na.rm = TRUE)                                 
 
 
 #normalization of yearly data
 
 SoCI_stats <- bond_SoCI %>% group_by(year) %>% 
-              summarize_at(vars(elder_only:comms_only), c("mean", "max", "min"))
+              summarize_at(vars(elder_only:comms_only), c("mean", "max", "min"), na.rm = TRUE)
 
 
 SoCI_stat_combo <- left_join(bond_SoCI, SoCI_stats, by = "year")
