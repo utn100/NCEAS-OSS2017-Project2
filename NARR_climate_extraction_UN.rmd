@@ -1,0 +1,188 @@
+---
+title: "Processing NARR cimate data_Lambert grid"
+author: "Uyen Nguyen"
+date: "7/20/2017"
+output: html_document
+---
+# Data were downloaded from https://www.esrl.noaa.gov/psd/data/gridded/data.narr.monolevel.html
+##Data come as monthly values from 1978-2017, projected on Lambert Conformal Conic grid 
+
+#Data processing include data loading, annual mean calculation, and extracting values for individual counties. I created a function called 'NARR_convert' to automate this process for any climate variable.
+```{r setup}
+library(ncdf4)
+library(raster)
+library(rasterVis)
+library(maptools)
+library(rgdal)
+library(dplyr)
+library(reshape2)
+library (rgdal)
+library(sp)
+library(mapview)
+```
+
+# Note: make sure that 'tidyr' is not loaded, since it will confuse with funct 'extract' in 'raster', run .rs.unloadPackages if that is the case
+
+```{r Processing spatial data}
+# Import shape file of coastal counties
+county_sp <- readOGR("/home/shares/oss2017/social/DATA/counties.coast.shp")
+# crs(county_sp) # check for projection of the polygon
+# summary(county_sp)
+# plot(county_sp)
+# county_sp_data <- as.data.frame(county_sp)
+# unique(county_sp_data$GEOID)
+
+# Create function 'NARR_convert' with 'var_r' representing the downloaded file name
+NARR_convert <- function(var_r){
+  
+var_r_stack <- stack(var_r) #Import and stack the NARR climate data
+#Reproject county shape file to the climate projection
+county_sp_new <- spTransform(county_sp, crs(var_r_stack))
+#Convert shape file to a data frame
+climate_data <- as.data.frame(county_sp_new)
+climate_data_cln <- climate_data[,c(1,2,4,5,14,15,16,17)]
+
+#Extract year from layer name in stack, in order to group same years together
+all_band_names <- names(var_r_stack)
+years <- gsub("X", "", all_band_names)
+
+unique_years <- unique(substr(years, 1,4))
+all_years <- stack() #Create an empty stack
+
+#Loop to calculate annual mean for each year and to extract annual value for each county
+for(year in unique_years){
+  print(year)
+
+  # grab just names from a particular year
+  one_year_names <- all_band_names[grepl(year, all_band_names)]
+
+  # subset all layers from the raster stack that contain data from this year
+  single_year_stack <- subset(var_r_stack, one_year_names)
+
+  # get the annual mean - not you can also use cellStats to do this 
+  annual_mean <- mean(single_year_stack, na.rm=TRUE)
+  names(annual_mean) <- year #layer names have to start with a character but name the layer the year - this will help with plotting later
+
+  # extract values for the counties
+  ext <- raster::extract (annual_mean,county_sp_new,fun=mean,na.rm=TRUE)
+  i = length(climate_data_cln)+1
+  #add extracted values of each year to the counties table
+  climate_data_cln <- cbind(climate_data_cln, ext)
+  names(climate_data_cln)[i] <- year #add the year to each new column
+  
+   # add all year layers to stack for later convenience but not neccesary in this work
+  all_years <- stack(all_years, annual_mean)
+  
+  } #End of for loop
+
+#Data wrangling to put all year in one column and climate value in another
+data <- melt(climate_data_cln, id.vars=c('STATEFP', 'COUNTYFP', 'NAME','GEOID','ALAND','AWATER','INTPTLAT', 'INTPTLON'), var='Year')
+climate_data_final <<- data #This <<- helps save the returned data frame to workspace in case I want to examine it later
+} #end of function
+```
+
+
+
+```{r Process real data now}
+
+#First getting the temp data 
+climate_T <- NARR_convert("air.sfc.mon.mean.nc") 
+dim(climate)
+names(climate_T)[10] <- "Temp.K"
+write.csv(x=climate_T,file="climate_T.csv")
+#Create a list of other climate files and extract them and add them to the temp data table
+list <- c("apcp.mon.mean.nc","uwnd.10m.mon.mean.nc","vwnd.10m.mon.mean.nc")
+for (i in list)
+{print (i)
+  climate <- cbind(climate,NARR_convert(i)[10])
+  
+}
+#Cleaning up, doing some calculation for wind speed and direction, and export a csv file
+names(climate)[11] <- "Precipitation"
+dim(climate)
+climate_cal <- cbind(climate, sqrt((climate[12])^2+(climate[13])^2)) #Calculate wind speed from u-wind and v-wind
+climate_cal <- cbind(climate_cal, atan(climate[13]/climate[12])*180/(pi)) #Calculate wind direction from uwind and vwind
+climate_cal[12:13] <- NULL #Delete the uwind and vwind columns
+names(climate_cal)[12] <- "Windspeed"
+names(climate_cal)[13] <- "Winddirection.degree"
+write.csv(x=climate_cal,file="climate.csv") #Export the data to csv
+
+```
+
+
+```{r Create leaflet map}
+#Now I have the climate_cal data frame, I need to convert it back to raster
+climate_1990 <- subset(climate_cal, climate$Year %in% 1990) #get data for 1990 only
+climate_2016 <- subset(climate_cal, climate$Year %in% 2016)
+unique(climate_2016$GEOID)
+
+#Create a temperature data frame for 1990, just to test codes
+climate_1990_T <- data.frame(Temp = climate_1990$Temp.K, latitude=climate_1990$INTPTLAT, longitude=climate_1990$INTPTLON, label=climate_1990$NAME)
+climate <- read.csv('climate_T.csv')
+climate_1990 <- subset(climate, climate$Year %in% 1990)
+
+#Convert lat and lon to numeric 
+climate_1990_T$latitude <- as.numeric(as.character(climate_1990_T$latitude))
+climate_1990_T$longitude <- as.numeric(as.character(climate_1990_T$longitude))
+#Convert data frame to shape file
+coordinates(climate_1990_T) <- ~longitude + latitude
+writeOGR(climate_1990_T, "/home/shares/oss2017/social/NOAA_climatedata","climate_1990_T", driver = "ESRI Shapefile")
+test <- readOGR("climate_1990_T.shp")
+test_data <- as.data.frame(test)
+
+plot(test)
+
+```
+
+
+```{r Merging data and shape}
+#Merging a data frame to a shape file
+county_sp <- merge(county_sp, climate_1990_new, by.x = "NAME", by.y = "label")
+duplicated(climate_1990_T$label)
+climate_1990 <- climate_1990_T %>% group_by(label) %>% summarize(meantemp=mean(Temp)) #interpolate where counties are mismatched
+
+#New data using GEOID as the unique ID for merging
+climate_1990_sp <- merge(county_sp, climate_1990, by.x="ALAND", by.y="ALAND")
+
+climate_2016_sp <- merge(county_sp, climate_2016, by.x="GEOID", by.y="GEOID")
+#Plot the leaflet map of 1990 temperatures of coastal counties
+pal <- colorNumeric(
+  palette = "YlOrRd",
+  domain = climate_1990_sp$Temp.K
+)
+
+# m <- leaflet() %>%
+#   addTiles() %>% 
+#   addPolygons(data=climate_1990_sp, popup = ~as.character(NAME.x), color = "#444444", weight = 1, smoothFactor = 0.5,
+#               opacity = 1.0, fillOpacity = 0.5,
+#               fillColor = ~colorQuantile("YlOrRd",Temp.K)(Temp.K),
+#               highlightOptions = highlightOptions(color = "white", weight = 2,bringToFront = TRUE), group = "1990")%>%
+#   addPolygons(data=climate_2016_sp, popup = ~as.character(NAME.x,Temp.K), color = "#444444", weight = 1, smoothFactor = 0.5, opacity = 1.0, fillOpacity = 0.5, fillColor = ~colorQuantile("YlOrRd",Temp.K)(Temp.K),
+#               highlightOptions = highlightOptions(color = "white", weight = 2, bringToFront = TRUE), group = "2016") %>% 
+#   addLayersControl(overlayGroups = c("1990","2016"),
+#     options = layersControlOptions(collapsed = FALSE)) 
+
+pal <- colorNumeric(
+  palette = "YlOrRd",
+  domain = climate_1990$Temp.K
+)
+popup = paste0("<strong>T: </strong>",climate_1990$NAME)
+
+m <- leaflet(climate_1990_sp) %>%
+  addTiles() %>% 
+  addPolygons(popup= popup, color = "#444444", weight = 1, smoothFactor = 0.5,
+              opacity = 1.0, fillOpacity = 0.5,
+              fillColor = ~colorQuantile("YlOrRd", Temp.K)(Temp.K),
+              highlightOptions = highlightOptions(color = "white", weight = 2,
+                                                  bringToFront = TRUE)) %>% 
+  addLegend("topright", 
+            pal = pal, 
+            values = ~Temp.K,
+            title = "Land area",
+            labFormat = labelFormat(suffix = " degree K"),
+            opacity = 1
+)
+
+m
+```
+
